@@ -18,6 +18,6 @@ import numpy as np
 # print(z == y)
 # x = torch.tensor(np.array([[[1, 2, 3]]]))
 # print(x)  #  ndarray和tensor的转换
-x
+
 
 
