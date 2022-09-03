@@ -20,4 +20,17 @@ test_loader = DataLoader(test_dataset, batch_size=test_batch_size, shuffle=False
 ```
 以及load后的数据类型,我查看后发现是tensor类型，和我预想中的RGB值得到的矩阵不一样，以及下面这句代码`plt.imshow(example_data[i][0], cmap='gray', interpolation='none')`为什么example是二维数组，下标为0的那个维度含义是什么,因为我刚接触这个框架，还需要具体地了解，学习pytorch中的数据结构
 
-后续我会跟莫凡的课进行学习，回来更新
+后续我会对pytorch的框架继续进行学习，回来更新
+
+2022-09-03
+
+先回答昨天的几个问题
+tensor是神经网络中的numpy，两者区别在于前者可以在GPU上运算，而后者只能在CPU上运算
+
+调试过程中查看变量发现example_data是一个128x1x28x28的多维数组，128对应的就是batch_size,长度为1的这个维度暂时不知道用处是什么，28x28储存了一张图片各个像素点的灰度值
+
+然后就是对tensor基础操作的学习，包括创建，加法，矩阵乘法，重组等
+
+最核心的是pytorch的自动求导机制的学习，这个会专门写一篇博客
+
+今天尝试在pycharm中上传项目到Github，遇到了一个问题，提交成功后推送时，出现了报错，发现超时，可能是因为我用Git时输了乱七八糟的指令，最后我直接git init 完美解决
