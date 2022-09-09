@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5d0905-bde7-4e07-b63c-257f7ff4c2bd" name="变更" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensor_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensor_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../network_mnist_train/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../network_mnist_train/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../network_mnist_train/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../network_mnist_train/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../network_mnist_train/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../network_mnist_train/.idea/network_mnist_train.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../network_mnist_train/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../network_mnist_train/load_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022-09-03_16_55_取消提交了变更_[变更]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022-09-03_17_52_取消提交了变更_[变更]/shelved.patch" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
