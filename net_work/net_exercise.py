@@ -21,8 +21,6 @@ class Net(nn.Module):
         x = F.relu(self.hidden2(x))
         x = self.predict(x)
         return x
-
-
 # 将定义的神经网络实例化
 net = Net(n_features=1, n_hidden1=10, n_hidden2=10, n_output=1)
 # 设置优化器，采用随机梯度下降SGD，传入我们神经网络模型的参数，设置学习率
